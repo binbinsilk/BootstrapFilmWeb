@@ -1,0 +1,14 @@
+*{ margin:0px; text-decoration:none;}
+  #container{width:1380px; height:460px; position:relative;overflow:hidden; margin:0 auto;}
+  #list{width:9660px; height:460px; position:absolute; z-index:1;}
+  #list img{float:left;}
+  #buttons{position:absolute; height:10px; width:100px; z-index:2; bottom:20px; left:48%;}
+  #buttons span{cursor:pointer;/*假超链接样式*/ float:left; border:1px  solid #fff; width:10px; height:10px;border-radius:10px; background:#333; margin-right:5px;}
+  #buttons .on{background:orangered;}
+  .arrow{cursor:pointer; display:none; line-height:100px; text-align:center; font-size:36px; 
+        font-weight:bold; width:50px; height:100px;  position:absolute; z-index:2; top:150px;
+	background-color: RGBA(0,0,0,.3); color:#fff;}
+   .arrow:hover{background-color:RGBA(0,0,0,.7);}
+   #container:hover .arrow{display:block;}
+   #prev{left:20px;}
+   #next{right:20px;}

@@ -1,0 +1,24 @@
+			.nav{background: #C7DDEF;width: 100%;height: 40px;}
+			.glyphicon-film{font-size: 20px;color:#000000}
+			.active{margin-left: 20px;}
+			.logo{margin-right: 10px;margin-left: 10px;}
+			.pull-right{margin-right: 10px;}
+
+			
+			table{height: 500px;margin: 0px auto;margin-top: 60px;}
+			td{width: 600px;}
+			th,tr{width: 1200px;display: block;margin: 0 auto;}
+			textarea{display: block;margin: 0 auto;border: 1px solid #CCCCCC;}
+			#tellusspan{height:40px;width: 1210px;margin:0 auto;display: block;font-size: 20px;line-height: 35px;margin-top: -60px;background: rgb(196,227,243);}
+			#buttons{height: 100px;width: 200px;margin: 30px auto;}
+			
+			#footer_top{width: 100%;height:200px;background: #F5F5F5;margin-top: -30px;}
+			#footer_bottom{width: 100%;height: 50px;background: #C7DDEF;}
+			
+			#footer_top .glyphicon-film{color:#269ABC;font-size: 25px;display: block;margin-left: 18%;padding-top: 30px;width: 200px;height: 50px;}
+			.small_nav{margin-left: 18%;margin-top: 10px;}
+			.small_nav li a{display: block;float: left;margin-top: 20px;margin-right: 20px;font-family: "微软雅黑";font-size: 16px;}
+			.message{clear:both;margin-left: 18%;margin-top: 10px;}
+			.message li a{display: inline-block;float: left;margin-top: 20px;margin-right: 20px;font-family: "微软雅黑";color: #000000;color:#777777;font-size: 13px;}
+			#footer_bottom ul{margin-left: 40%;}
+			#footer_bottom ul li a{display: inline-block;float: left;margin-top: 15px;margin-right: 20px;font-family: "微软雅黑";color: #000000;color:#777777;font-size: 12px;}

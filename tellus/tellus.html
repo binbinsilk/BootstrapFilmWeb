@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/css_tellus.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<div id="nav">
+				<ul class="nav nav-tabs navbar-fixed-top"><!--固定在上面-->
+					<li class="logo"><a href="../index.html"><span class="glyphicon glyphicon-film"></span></a></li>
+					<li><a href="../index.html">首页</a></li>
+	 				<li><a href="../today/today.html">今日热点</a></li>
+	 				<li><a href="../comment/comment.html">电影评论</a></li>
+	 				<li><a href="../new_movie/new_movie.html">新片动态</a></li>
+	 				<li class="active"><a href="../tellus/tellus.html">联系我们</a></li>
+	 				<li class="pull-right"><a href="https://www.douban.com/"><span class="glyphicon glyphicon-link"></span>友情链接</a></li>
+	 				<li class="pull-right"><a href="##"><span class="glyphicon glyphicon-hd-video"></span>高清电影</a></li>
+				</ul>
+			</div>
+			<div id="form">
+				<form action="default.aspx" onsubmit="return check();" method="post"  name="form1">
+				<table class="table table-bordered table-striped table-hover">
+						<tr class="info">
+							<th colspan="2">Your Message</th>
+						</tr>
+						<tr>
+							<td>
+								<div class="input-group">
+								  <span class="input-group-addon" id="basic-addon1">姓名</span>
+								  <input type="text" class="form-control input-lg"  placeholder="请输入你的姓名" aria-describedby="basic-addon1">
+								</div>
+
+							</td>
+							<td>
+								<div class="input-group">
+								  <span class="input-group-addon" id="basic-addon1">职业</span>
+								  <input type="text" class="form-control input-lg" placeholder="请输入你的职业" aria-describedby="basic-addon1">
+								</div>
+
+							</td>
+							
+						
+						</tr>
+						<tr>
+							<td>
+							<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">性别</span>
+							  <input type="text" class="form-control input-lg" placeholder="请输入你的性别" aria-describedby="basic-addon1">
+							</div>
+
+							</td>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">QQ</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的QQ" aria-describedby="basic-addon1">
+							</div>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">年龄</span>
+							  <input type="text" class="form-control input-lg" placeholder="请输入你的年龄" aria-describedby="basic-addon1">
+							</div>
+							</td>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">脸书</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的Facebook" aria-describedby="basic-addon1">
+							</div>
+							</td>
+							
+						
+						</tr>
+						<tr>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">Msn</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的Msn" aria-describedby="basic-addon1">
+							</div>
+							</td>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">建议</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的建议" aria-describedby="basic-addon1">
+							</div>
+							</td>
+						
+						</tr>
+						<tr>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">Email</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的电子邮箱" aria-describedby="basic-addon1">
+							</div>
+							</td>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">QQ</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的QQ" aria-describedby="basic-addon1">
+							</div>
+							</td>
+							
+							
+						</tr>
+						<tr>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">建议</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的建议" aria-describedby="basic-addon1">
+							</div>
+							</td>
+							<td>
+									<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">建议</span>
+							  <input type="text" class="form-control input-lg" placeholder="你的建议" aria-describedby="basic-addon1">
+							</div>
+							</td>
+						
+						</tr>
+					
+					</table>
+	 			
+							<span id="tellusspan" class="input-group-addon" id="basic-addon1">Tell us </span>
+	 						<textarea name="" rows="20" cols="193">
+				</textarea>						
+					
+				</form>
+				
+			</div>
+			<div id="buttons">
+				<input type="button" class="btn btn-success btn-lg"  value="submit" />
+				<input type="reset" class="btn btn-primary  btn-lg" value=" reset" />
+			</div>
+			<div id="footer_top">
+				<span class="glyphicon glyphicon-film">
+					光影漫步
+				</span>
+				<ul class="small_nav">
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">网站地图</a></li>
+					<li><a href="#">诚聘英才</a></li>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">友情链接</a></li>
+					<li><a href="#">合作媒体</a></li>
+				</ul>
+				<ul class="message">
+					<li><a href="#">备案编号0000</a></li>
+					<li><a href="#">备案编号0002</a></li>
+					<li><a href="#">出版物经营许可证</a></li>
+					<li><a href="#">电影发行许可证</a></li>
+					<li><a href="#">经营性演出许可证</a></li>
+				
+				</ul>
+				<ul class="message">
+					<li><a href="#">企业法人营业执照</a></li>
+					<li><a href="#">增值电信业务经营许可证</a></li>
+					<li><a href="#">京ICP备0000号</a></li>
+					<li><a href="#">京公网安备000</a></li>
+					
+				</ul>
+
+			</div>
+			<div id="footer_bottom">
+				<ul>
+					<li><a href="#">CopyRight © 2017</a></li>
+					<li><a href="#">|</a></li>
+					<li><a href="#">济南大学</a></li>
+					<li><a href="#">|</a></li>
+					<li><a href="#">计软1503</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
